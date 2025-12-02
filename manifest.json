@@ -1,0 +1,23 @@
+{
+  "name": "Chrome Retry",
+  "description": "Automatically reload websites if an HTTP error occurs",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webNavigation",
+    "tabs",
+    "alarms",
+    "storage"
+  ],
+  "icons": {
+    "128": "assets/chrome-retry/chrome-retry-128.png",
+    "256": "assets/chrome-retry/chrome-retry-256.png",
+    "512": "assets/chrome-retry/chrome-retry-512.png",
+    "1024": "assets/chrome-retry/chrome-retry-1024.png",
+    "2048": "assets/chrome-retry/chrome-retry-2048.png"
+  },
+  "background": {
+    "service_worker": "chrome-retry.js",
+    "type": "module"
+  }
+}
