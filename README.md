@@ -8,4 +8,4 @@ No configuration is needed from the user; after a failed tab load, another attem
 
 This extension is primarily aimed at developers who, for example, have a kiosk web app that needs to be resistant to server failures. There is no way to control the rate of the reloads nor the pages on which they apply; the extension will happily reload any page anywhere, even pages that never existed in the first place.
 
-<img src="assets/screenshots/screenshot-1.png" width="1200" alt="Screenshot of Chrome Retry's debugger">
+<img src="assets/screenshots/screenshot-1200.png" width="1200" alt="Screenshot of Chrome Retry's debugger">
